@@ -1,4 +1,4 @@
-\# Git Branching, Merging \& Release Workflow
+# Git Branching, Merging & Release Workflow
 
 
 
@@ -6,7 +6,7 @@ A hands-on Git project demonstrating feature branching, development workflows, r
 
 
 
-\## Project Overview
+## Project Overview
 
 
 
@@ -18,33 +18,33 @@ The repository preserves the original Git history, including its branches, merge
 
 
 
-\## Git Concepts Demonstrated
+## Git Concepts Demonstrated
 
 
 
-\- Feature branching
+- Feature branching
 
-\- Development branches
+- Development branches
 
-\- Branch merging
+- Branch merging
 
-\- Rebasing
+- Rebasing
 
-\- Release branches
+- Release branches
 
-\- Hotfix branches
+- Hotfix branches
 
-\- Merge commits
+- Merge commits
 
-\- Version tagging
+- Version tagging
 
-\- Git history inspection
+- Git history inspection
 
-\- Branch and release management
+- Branch and release management
 
 
 
-\## Branch Structure
+## Branch Structure
 
 
 
@@ -52,17 +52,17 @@ The project used several branches during development:
 
 
 
-\- `master` — main/release branch
+- `master` — main/release branch
 
-\- `develop` — development branch
+- `develop` — development branch
 
-\- `feature1` — feature development
+- `feature1` — feature development
 
-\- `feature2` — additional feature development
+- `feature2` — additional feature development
 
-\- `release1` — release preparation
+- `release1` — release preparation
 
-\- `hotfix` — post-release bug fixing
+- `hotfix` — post-release bug fixing
 
 
 
@@ -70,11 +70,11 @@ Some feature and hotfix branches were subsequently merged and are preserved in t
 
 
 
-\## Releases
+## Releases
 
 
 
-\### v1.00
+### v1.00
 
 
 
@@ -90,7 +90,7 @@ Tag:
 
 
 
-\### v1.01
+### v1.01
 
 
 
@@ -110,7 +110,7 @@ The hotfix was also merged into `develop`.
 
 
 
-\## Rebase Workflow
+## Rebase Workflow
 
 
 
@@ -124,10 +124,23 @@ The original `feature2` work was rebased onto the updated development history, r
 
 This provides an example of how rebasing rewrites commit history and produces a new commit hash.
 
+## Workflow Demonstrated
 
+The project follows a simplified development and release workflow:
 
-\## Repository Structure
+1. A development branch was used for ongoing work.
+2. Feature branches were created for individual pieces of work.
+3. Feature work was merged into the development branch.
+4. A release branch was used to prepare a release.
+5. The release branch was merged into `master` and tagged as `v1.00`.
+6. A hotfix was created to address a bug after the release.
+7. The hotfix was merged into `master` and tagged as `v1.01`.
+8. The hotfix was also merged into `develop`.
+9. Feature development also included a rebase onto updated development history.
 
+This repository preserves the resulting Git history so that the branching, merging, rebasing, and release workflow can be inspected directly.
+
+## Repository Structure
 
 
 ```text
