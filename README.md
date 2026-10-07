@@ -124,10 +124,23 @@ The original `feature2` work was rebased onto the updated development history, r
 
 This provides an example of how rebasing rewrites commit history and produces a new commit hash.
 
+## Workflow Demonstrated
 
+The project follows a simplified development and release workflow:
+
+1. A development branch was used for ongoing work.
+2. Feature branches were created for individual pieces of work.
+3. Feature work was merged into the development branch.
+4. A release branch was used to prepare a release.
+5. The release branch was merged into `master` and tagged as `v1.00`.
+6. A hotfix was created to address a bug after the release.
+7. The hotfix was merged into `master` and tagged as `v1.01`.
+8. The hotfix was also merged into `develop`.
+9. Feature development also included a rebase onto updated development history.
+
+This repository preserves the resulting Git history so that the branching, merging, rebasing, and release workflow can be inspected directly.
 
 ## Repository Structure
-
 
 
 ```text
