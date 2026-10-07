@@ -1,4 +1,4 @@
-\# Git Branching, Merging \& Release Workflow
+# Git Branching, Merging & Release Workflow
 
 
 
@@ -6,7 +6,7 @@ A hands-on Git project demonstrating feature branching, development workflows, r
 
 
 
-\## Project Overview
+## Project Overview
 
 
 
@@ -18,33 +18,33 @@ The repository preserves the original Git history, including its branches, merge
 
 
 
-\## Git Concepts Demonstrated
+## Git Concepts Demonstrated
 
 
 
-\- Feature branching
+- Feature branching
 
-\- Development branches
+- Development branches
 
-\- Branch merging
+- Branch merging
 
-\- Rebasing
+- Rebasing
 
-\- Release branches
+- Release branches
 
-\- Hotfix branches
+- Hotfix branches
 
-\- Merge commits
+- Merge commits
 
-\- Version tagging
+- Version tagging
 
-\- Git history inspection
+- Git history inspection
 
-\- Branch and release management
+- Branch and release management
 
 
 
-\## Branch Structure
+## Branch Structure
 
 
 
@@ -52,17 +52,17 @@ The project used several branches during development:
 
 
 
-\- `master` — main/release branch
+- `master` — main/release branch
 
-\- `develop` — development branch
+- `develop` — development branch
 
-\- `feature1` — feature development
+- `feature1` — feature development
 
-\- `feature2` — additional feature development
+- `feature2` — additional feature development
 
-\- `release1` — release preparation
+- `release1` — release preparation
 
-\- `hotfix` — post-release bug fixing
+- `hotfix` — post-release bug fixing
 
 
 
@@ -70,11 +70,11 @@ Some feature and hotfix branches were subsequently merged and are preserved in t
 
 
 
-\## Releases
+## Releases
 
 
 
-\### v1.00
+### v1.00
 
 
 
@@ -90,7 +90,7 @@ Tag:
 
 
 
-\### v1.01
+### v1.01
 
 
 
@@ -110,7 +110,7 @@ The hotfix was also merged into `develop`.
 
 
 
-\## Rebase Workflow
+## Rebase Workflow
 
 
 
@@ -126,7 +126,7 @@ This provides an example of how rebasing rewrites commit history and produces a 
 
 
 
-\## Repository Structure
+## Repository Structure
 
 
 
